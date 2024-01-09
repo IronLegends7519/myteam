@@ -13,6 +13,13 @@ header{
   flex-direction: column;
 
 }
+.address{
+  margin-top: 25px;
+  color: white;
+  opacity: 60%;
+  text-align: center;
+}
+
 .build{
   background-color: #012F34;
   display: flex;
@@ -33,13 +40,64 @@ header{
   height: 35%;
   width: 35%;
 }
+.petitLogo{
+  display: grid;
+  margin: auto ;
+  margin-bottom: 25px;
+  padding-top: 45px;
+  height: 25%;
+  width:25%;
+}
 .textCenter{
   text-align: center;
 }
-.fontSize{
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
+.fontSizeLarge{
   font-size:35px;
 }
-
+.fontSizeSmall{
+  font-size: 12px;
+}
+.separation{
+  margin-top: 20%;
+}
+.paddingTop{
+  padding-top: 50px;
+}
+.paddingBottom{
+  padding-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.PetitProfil{
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  height: 62px;
+  width: 62px;
+}
+.contact{
+border-radius: 50px;
+  padding: 10px 25px;
+  margin-left: 120px;
+  text-align: center;
+  color: #012F34;
+  border: solid;
+  border-color: #012F34;
+}
+.home{
+  margin-left: 125px;
+}
+.about{
+  margin-left: 20px;
+}
 
 .blue{
   background-color: #014E56;
@@ -47,11 +105,20 @@ header{
 .textWhite{
   color : white;
 }
-.cyan{
+.textCyan{
   color: #79C8C7;
 }
 .textRose{
   color: #F67E7E;
+ }
+ .textBluef{
+  color: #012F34;
+ }
+ .backRose{
+  background-color: #F67E7E;
+ }
+ .backNoir{
+  background-color:#002529 ;
  }
  .bluef{
   background-color: #012F34;
@@ -68,6 +135,27 @@ header{
   height: 100px;
   width: 100Vw;
   background-image:url('/img/bg-pattern-home-2.svg') ;
+  background-repeat: no-repeat;
+}
+.home4{
+  height: 100px;
+  width: 40Vw;
+  background-image: url('/img/bg-pattern-home-4-about-3.svg');
+  background-repeat: no-repeat;
+}
+.home5{
+  margin-top: 50px;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 100px;
+  width: 100Vw;
+  background-image: url('/img/bg-pattern-home-5.svg');
+  background-repeat: no-repeat;
+}
+.home6{
+  height: 140px;
+  width: 100Vw;
+  background-image: url('/img/bg-pattern-home-6-about-5.svg');
   background-repeat: no-repeat;
 }
 .about4{
@@ -94,20 +182,16 @@ header{
   background-image: url('/img/icon-chart.svg');
   background-repeat: no-repeat;
 }
-.home4{
-  height: 100px;
-  width: 40Vw;
-  background-image: url('/img/bg-pattern-home-4-about-3.svg');
-  background-repeat: no-repeat;
-}
-.quotes{
-  height: 70px;
-  width: 70px;
+.quote{
+  margin-top: 15px;
+  padding-top: 40px;
+  background-position-x: center;
+  background-position-y: 20px;
   background-image: url('/img/icon-quotes.svg');
   background-repeat: no-repeat;
 }
 
 
-.kady{
-  background-image: ;
-}
+
+
+
