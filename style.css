@@ -7,41 +7,11 @@ body{
   margin:0;
   padding:0;
 }
-.blue{
-  background-color: #014E56;
-}
-
-.textWhite{
-  color : white;
-}
 header{
   display: flex;
   text-align: center;
   flex-direction: column;
 
-}
-.logo{
-  margin: 40px;
-  height: 35%;
-  width: 35%;
-}
-.textRose{
- color: #F67E7E;
-}
-.home2{
-  height: 100px;
-  width: 100Vw;
-  background-image:url('/img/bg-pattern-home-2.svg') ;
-  background-repeat: no-repeat;
-}
-.espace{
-  margin-bottom: 25%;
-}
-.about4{
-  height: 250px;
-  width: 25Vw;
-  background-image:url('/img/bg-pattern-home-3.svg') ;
-  background-repeat: no-repeat;
 }
 .build{
   background-color: #012F34;
@@ -49,32 +19,8 @@ header{
   flex-direction: row;
   padding-left: 30px;
 }
-.hrRose{
-  width: 50px;
-  border-color: #F67E7E;
-  margin-top: 50px;
-  margin-left: 0;
-}
-.person{
-  height: 75px;
-  width: 25Vw;
-  background-image:url('/img/icon-person.svg') ;
-  background-repeat: no-repeat;
-}
-.bluef{
-  background-color: #012F34;
-}
-.Experienced{
-  display: grid;
-  text-align: center;
-  justify-items: center;
-  justify-content: center;
-}
-.cog{
-  height: 75px;
-  width: 25Vw;
-  background-image: url('/img/icon-cog.svg');
-  background-repeat: no-repeat;
+.espace{
+  margin-bottom: 25%;
 }
 .Implement{
   display: grid;
@@ -82,20 +28,86 @@ header{
   justify-items: center;
   justify-content: center;
 }
+.logo{
+  margin: 40px;
+  height: 35%;
+  width: 35%;
+}
+.textCenter{
+  text-align: center;
+}
+.fontSize{
+  font-size:35px;
+}
+
+
+.blue{
+  background-color: #014E56;
+}
+.textWhite{
+  color : white;
+}
+.cyan{
+  color: #79C8C7;
+}
+.textRose{
+  color: #F67E7E;
+ }
+ .bluef{
+  background-color: #012F34;
+}
+ .hrRose{
+  width: 50px;
+  border-color: #F67E7E;
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+
+.home2{
+  height: 100px;
+  width: 100Vw;
+  background-image:url('/img/bg-pattern-home-2.svg') ;
+  background-repeat: no-repeat;
+}
+.about4{
+  height: 250px;
+  width: 25Vw;
+  background-image:url('/img/bg-pattern-home-3.svg') ;
+  background-repeat: no-repeat;
+}
+.person{
+  height: 75px;
+  width: 25Vw;
+  background-image:url('/img/icon-person.svg') ;
+  background-repeat: no-repeat;
+}
+.cog{
+  height: 75px;
+  width: 25Vw;
+  background-image: url('/img/icon-cog.svg');
+  background-repeat: no-repeat;
+}
 .chart{
   height: 75px;
   width: 25Vw;
   background-image: url('/img/icon-chart.svg');
   background-repeat: no-repeat;
 }
-.Productivity{
-  display: grid;
-  text-align: center;
-  justify-items: center;
-  justify-content: center;
-}
 .home4{
-  height: 75px;
-  width: 25Vw;
+  height: 100px;
+  width: 40Vw;
   background-image: url('/img/bg-pattern-home-4-about-3.svg');
+  background-repeat: no-repeat;
+}
+.quotes{
+  height: 70px;
+  width: 70px;
+  background-image: url('/img/icon-quotes.svg');
+  background-repeat: no-repeat;
+}
+
+
+.kady{
+  background-image: ;
 }
