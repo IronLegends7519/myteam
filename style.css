@@ -187,7 +187,7 @@ border-radius: 50px;
   background-image: url('/img/bg-pattern-home-6-about-5.svg');
   background-repeat: no-repeat;
 }
-.about4{
+.home3{
   height: 250px;
   width: 25Vw;
   background-image:url('/img/bg-pattern-home-3.svg') ;
@@ -230,6 +230,7 @@ padding-bottom: 50px;
   align-items: center;
   flex-direction: column;
   background-color: #012F34;
+  position: relative;
 }
 .marginTop2{
   margin-top: 75px;
@@ -239,14 +240,14 @@ padding-bottom: 50px;
   padding: 25px;
   background-color: #F67E7E;
   border-radius: 50%;
-  margin-top: 285px;
   position: absolute;
+  left: 42%;
+  top: 90%;
 }
 .meetDirector{
   display: grid;
-  justify-content: center;
+  padding-left: 16px;
   align-items: center;
-  flex-direction: column;
 }
 
 .about6{
@@ -273,11 +274,35 @@ padding-bottom: 50px;
   background-position: center;
 }
 .home4About{
-  margin-left: 200px;
   margin-top: 25px;
   height: 100px;
-  width: 40Vw;
   background-image: url('/img/bg-pattern-home-4-about-3.svg');
   background-repeat: no-repeat;
   background-position-x: right;
+}
+.about4{
+  height: 100px;
+  background-image: url('/img/bg-pattern-about-4.svg');
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-position-y:bottom;
+}
+
+.logo{
+  size: 50px;
+}
+.displayNone{
+  display: none;
+}
+
+.circleBlue{
+  padding: 25px;
+  background-color: #79C8C7;
+  border-radius: 50%;
+  position: absolute;
+  left: 42%;
+  top: 90%;
+}
+.croix{
+
 }
