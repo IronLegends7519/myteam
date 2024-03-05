@@ -9,12 +9,23 @@
   </head>
 
   <body>
+    <div class="fond"></div>
 <header class="blue textWhite">
-  <img src="/img/logo.svg" alt="logo myTeam" class="logo">
+  <nav class="nav">  
+    <img src="/img/logo.svg" alt="logo myTeam" class="logo">
+    <button class="hamburger" id="burger"></button>
+  </nav>
+  <div class=" menuBurger" id="menu">
+    <button class="close" id="close"></button>
+    <a href="index.html" class="burgerHome">home</a>
+    <a href="about.html" class="burgerAbout">about</a>
+    <a href="contact.html" class="contactMenu">contact us</a>
+    <div class="aboutBurger"></div>
+  </div>
   <h1>Contact <br><span class="textRose">Ask us about</span></h1>
 </header>
 
-<main>
+<main class="marginDown">
 <section class="blue textWhite">
     <article>
         <div class="row">    
@@ -34,14 +45,15 @@
     </article>
 
     <article class="blue textWhite">
-        <form action="g" class="blue column">
-            <input type="text" placeholder="name" class="blue">
-            <input type="text" placeholder="Email Adress" class="blue">
-            <input type="text" placeholder="Company name" class="blue">
-            <input type="text" placeholder="Title" class="blue">
-            <input type="text" placeholder="Message" class="blue">
-            <input type="submit" value="submit">
+        <form action="g" class="blue column formulaire">
+            <input type="text" placeholder="Name" class="blue champ">
+            <input type="text" placeholder="Email Adress" class="blue champ">
+            <input type="text" placeholder="Company Name" class="blue champ">
+            <input type="text" placeholder="Title" class="blue champ">
+            <input type="text" placeholder="Message" class="blue champ champMessage">
+            <input type="submit" value="submit" class="submit">
         </form>
+        <div class="contact2"></div>
     </article>
 </section>
 </main>
@@ -57,7 +69,7 @@
     <img src="/img/icon-pinterest.svg" alt="icon-pinterest" class="pinterest">
     <img src="/img/icon-twitter.svg" alt="icon-twitter">
   </div>
-<p class="address paddingBottom">Copyright 2020. All Rights Reserved</p>
+<p class="address paddingBottom marginReset">Copyright 2020. All Rights Reserved</p>
 </footer>
     <script type="module" src="/main.js"></script>
   </body>
